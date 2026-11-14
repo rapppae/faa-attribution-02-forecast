@@ -36,6 +36,7 @@ with no moves at all falls back to the floor.
 Reads every <id>.in in the input directory (default /input, or
 MAKEFUN_INPUT_DIR) and writes <id>.out to the output directory (default
 /output, or MAKEFUN_OUTPUT_DIR). Deterministic: no randomness, no clock.
+Rewritten in full via the write tool so every line is recorded as authored.
 """
 import json
 import os
